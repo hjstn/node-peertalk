@@ -1,0 +1,25 @@
+{
+  "name": "peertalk",
+  "version": "1.0.0",
+  "description": "Unofficial PeerTalk module for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "peertalk",
+    "usbmuxd",
+    "ios"
+  ],
+  "author": "justin97530",
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/justin97530/node-peertalk.git"
+  },
+  "dependencies": {
+    "bufferpack": "0.0.6",
+    "usbmux": "^0.1.0",
+    "utf8": "^2.1.1"
+  }
+}
