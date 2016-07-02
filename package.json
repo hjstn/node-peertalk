@@ -1,6 +1,6 @@
 {
   "name": "peertalk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unofficial PeerTalk module for Node.js",
   "main": "index.js",
   "scripts": {
@@ -14,8 +14,8 @@
   "author": "justin97530",
   "license": "MIT",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/justin97530/node-peertalk.git"
+    "type": "git",
+    "url": "https://github.com/justin97530/node-peertalk.git"
   },
   "dependencies": {
     "bufferpack": "0.0.6",
