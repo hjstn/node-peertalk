@@ -3,13 +3,13 @@ const events = require("events");
 const usbmux = require("usbmux");
 const bufferpack = require("bufferpack");
 
-function PeerTalk(port) {
+function PeerTalk(options, port) {
     if(!port || typeof port !== "number") port = "2345";
 
     return new Promise((resolve, reject) => {
         const event = new events.EventEmitter();
 
-        usbmux.getTunnel(port).then((tunnel) => {
+        usbmux.getTunnel(port, options).then((tunnel) => {
             resolve(event);
 
             event.on("send", (msg) => {

@@ -14,6 +14,8 @@ npm install [-g] peertalk
 Prerequisites: usbmux
 
 ## Module Usage
+* Port {integer}
+* Options {object} - Options for node-usbmux
 
 ```javascript
 const PeerTalk = require("peertalk"),
